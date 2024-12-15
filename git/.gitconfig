@@ -1,0 +1,9 @@
+[user]
+	name = issanym
+	email = jacinthenym@proton.me
+[init]
+	default = branch
+	default = branch
+	default = branch
+[credential]
+	useHttpPath = true
