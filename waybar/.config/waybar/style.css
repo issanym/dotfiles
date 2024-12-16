@@ -2,7 +2,7 @@
     border: none;
     border-radius: 0px;
     /*font-family: VictorMono, Iosevka Nerd Font, Noto Sans CJK;*/
-    font-family: Iosevka, FontAwesome, Noto Sans CJK;
+    font-family: "CaskaydiaMono Nerd Font",Iosevka, FontAwesome, Noto Sans CJK;
     font-size: 14px;
     font-style: normal;
     /*min-height: 0;*/
@@ -14,7 +14,7 @@ window#waybar {
     color: #fff;
 }
 
-#workspaces, .modules-center, #connectivity, #hardware, #tray, #custom-power, #custom-weather {
+#workspaces, .modules-center, #connectivity, #hardware, #tray, #custom-power{
 	background: #282828;
 	margin: 5px 5px 5px 5px;
   padding: 0px 5px 0px 5px;
