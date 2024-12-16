@@ -1,0 +1,52 @@
+* {
+    border: none;
+    border-radius: 0px;
+    /*font-family: VictorMono, Iosevka Nerd Font, Noto Sans CJK;*/
+    font-family: Iosevka, FontAwesome, Noto Sans CJK;
+    font-size: 14px;
+    font-style: normal;
+    /*min-height: 0;*/
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+    /*border-bottom: 1px solid #282828;*/
+    color: #fff;
+}
+
+#workspaces, .modules-center, #connectivity, #hardware, #tray, #custom-power, #custom-weather {
+	background: #282828;
+	margin: 5px 5px 5px 5px;
+  padding: 0px 5px 0px 5px;
+	border-radius: 16px;
+  border: solid 2px #BF8C05;
+  font-weight: normal;
+  font-style: normal;
+}
+
+#workspaces button {
+    padding: 0px 5px;
+    border-radius: 16px;
+    color: #85827f;/*#928374;*/
+}
+
+#workspaces button.active {
+    color: #BF8C05;
+    /*background-color: transparent;*
+    border-radius: 16px;*/
+}
+
+#custom-weather:hover, #custom-power:hover, #pulseaudio:hover, #bluetooth:hover, #network:hover, #power-profiles-daemon:hover, #temperature:hover, #battery:hover, #clock:hover  {
+	background-color: #BF8C05;
+	color: #fff/*#282828*/;
+   border-radius: 16px;
+}
+
+.modules-center, #connectivity, #hardware {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+#pulseaudio, #bluetooth, #network, #power-profiles-daemon, #temperature, #battery, #clock {
+   padding-left: 5px;
+   padding-right: 5px;
+}
