@@ -1,5 +1,5 @@
 [colors.primary]
-background = "0x3a4449"
+background = "0x273136"#"0x3a4449"
 foreground = "0xf2fffc"
 
 [colors.cursor]

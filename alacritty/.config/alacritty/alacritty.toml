@@ -25,7 +25,7 @@ live_config_reload = true
 
 [window]
 
-opacity = 0.7
+opacity = 0.85
 
 padding.x = 10
 padding.y = 10

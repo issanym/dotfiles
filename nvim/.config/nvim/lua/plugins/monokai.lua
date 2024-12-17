@@ -5,6 +5,7 @@ return {
     config = function()
       require("monokai-pro").setup({
         filter = "machine", -- Options: classic, octagon, pro, machine, ristretto, spectrum
+            transparent_background=true,
       })
     end,
   },
