@@ -32,7 +32,8 @@ require("lazy").setup({
 
 require("settings")
 
-
+vim.opt.termguicolors = true
+require("bufferline").setup{}
 
 
 
